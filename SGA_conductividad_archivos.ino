@@ -54,7 +54,7 @@ SensorAmbiente ambiente("ambiente", 4, DHT11);
 const int NUM_SENSORES_SUELO = 1;
 
 SensorHumedadSuelo suelos[NUM_SENSORES_SUELO] = {
-  SensorHumedadSuelo("suelo", A7, 600.0, 270.0)
+  SensorHumedadSuelo("suelo", A7, 600.0, 270.0, 6)
 };
 
 // ---------- Programa ----------
